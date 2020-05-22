@@ -10,25 +10,25 @@ This ExpressionEngine Plugin is a collection of random tools written to use in E
 ### bulk_update_status()
 This is designed to allow the easy opening & closing of ALL channel entries by specific Channel ID
 
-####Parameters
+#### Parameters
 - `channel_id=` (*required*) - The ID of the channel you want to close your entries in.
 - `status=` - (*required*) - (`open`/`closed`) The status you want to change the channel to. The Default is `open`
 - `date=` - (*required*) - This will set the Edit Date on the Channel Entry
 
 Example useage:
 ```
-{exp:kc_datatools:bulk_update_status channel_id="" status="" date="{current_time}"}
+{exp:junkdrawer:bulk_update_status channel_id="" status="" date="{current_time}"}
 ```
 
 
 ### randomnumber()
 This is designed to allow you to output a random string of numbers in your templates in ExpressionEngine
 
-####Parameters
+#### Parameters
 - `min=` - The minimum length of the string. The default is `6`
 - `max=` - the maximum length of the string. The default is `10`
 
 Example useage:
 ```
-{exp:kc_datatools:randomnumber min="" max=""}
+{exp:junkdrawer:randomnumber min="" max=""}
 ```
