@@ -32,3 +32,9 @@ Example useage:
 ```
 {exp:junkdrawer:randomnumber min="" max=""}
 ```
+
+## Change Log
+
+### 1.1
+
+- Initial release.
